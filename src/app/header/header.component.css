@@ -4,11 +4,27 @@
 }
 a{
     text-decoration: none;
-    color:red;
+    font-size: 3rem;
+    font-family: 'Josefin Sans', sans-serif;;
+    background: #CF0000;
+    background: -webkit-linear-gradient(to right, #CF0000 0%, #FFF712 100%);
+    background: -moz-linear-gradient(to right, #CF0000 0%, #FFF712 100%);
+    background: linear-gradient(to right, #CF0000 0%, #FFF712 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 ul{
     list-style: none;
     padding: 0;
     margin:0;
+    
+}
+#newpost{
+    font-size: 1.5rem;
+}
+
+.salam{
+    background: rgb(0,6,255);
+    background: linear-gradient(90deg, rgba(0,6,255,1) 0%, rgba(7,30,231,1) 10%, rgba(232,13,13,1) 50%, rgba(223,230,48,1) 80%, rgba(229,255,67,1) 100%);
 }
