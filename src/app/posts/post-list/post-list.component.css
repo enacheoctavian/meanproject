@@ -12,7 +12,9 @@ mat-spinner{
 }
 
 .post-image{
-  width: 100%;
+  width: 40%;
+  height: 100%;
+  margin: auto;
 }
 
 .post-image img{
