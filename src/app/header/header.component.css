@@ -27,6 +27,19 @@ a{
 }
 
 .salam{
-    background: rgb(0,6,255);
-    background: linear-gradient(90deg, rgba(0,6,255,1) 0%, rgba(7,30,231,1) 10%, rgba(232,13,13,1) 50%, rgba(223,230,48,1) 80%, rgba(229,255,67,1) 100%);
+    background: lightblue;
+    
+}
+
+button{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;;
+    background: #CF0000;
+    background: -webkit-linear-gradient(to right, #CF0000 0%, #FFF712 100%);
+    background: -moz-linear-gradient(to right, #CF0000 0%, #FFF712 100%);
+    background: linear-gradient(to right, #CF0000 0%, #FFF712 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
