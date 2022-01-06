@@ -4,6 +4,13 @@
     box-shadow: 0 1px 15px rgba(27,31,35,.15);
     margin-top: 2rem;
     margin-bottom: 2rem;
+    transition: transform 0.7s , background-color 0.7s;
+    
+  }
+
+  .e_info_box:hover{
+    transform: scale(1.1);
+    background-color: #a2d2ff;;
   }
   
   h3{

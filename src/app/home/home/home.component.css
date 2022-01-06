@@ -4,7 +4,15 @@
     box-shadow: 0 1px 15px rgba(27,31,35,.15);
     margin-top: 2rem;
     margin-bottom: 2rem;
-  }
+    transition: transform 0.7s, background-color 0.7s;
+    
+}
+
+.e_info_box:hover{
+  transform: scale(1.1);
+  background-color: #a2d2ff;
+  
+}
   .e_info_box h2{
       font-size: 1.8rem;
       color: #24292e;
@@ -23,6 +31,7 @@
       font-weight: 500;
       color: #24292e;
   }
+ 
   .info_item{
       text-align: center;
   }
@@ -50,4 +59,17 @@
 
   app-post-list{
       margin:auto;
+  }
+
+  span{
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: 'Josefin Sans', sans-serif;;
+    background: #CF0000;
+    background: -webkit-linear-gradient(to right, #CF0000 0%, #FFF712 100%);
+    background: -moz-linear-gradient(to right, #CF0000 0%, #FFF712 100%);
+    background: linear-gradient(to right, #CF0000 0%, #FFF712 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
