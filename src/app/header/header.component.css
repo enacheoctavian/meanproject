@@ -14,7 +14,9 @@ a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+#romania{
+    font-size: 2rem;
+}
 ul{
     list-style: none;
     padding: 0;
@@ -27,7 +29,7 @@ a{
 }
 
 .salam{
-    background: lightblue;
+    background: #a2d2ff;
     
 }
 

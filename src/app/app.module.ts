@@ -11,6 +11,8 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatListModule } from '@angular/material/list';
 
 import { AppComponent } from './app.component';
 import { PostCreateComponent } from './posts/post-create/post-create.component';
@@ -21,6 +23,9 @@ import { RouterModule } from '@angular/router';
 import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { AuthInterceptor } from './auth/auth-interceptor';
+import { HomeComponent } from './home/home/home.component';
+import { RulebookComponent } from './home/rulebook/rulebook.component';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +34,10 @@ import { AuthInterceptor } from './auth/auth-interceptor';
     HeaderComponent,
     PostListComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    HomeComponent,
+    RulebookComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -46,6 +54,8 @@ import { AuthInterceptor } from './auth/auth-interceptor';
     ReactiveFormsModule,
     MatPaginatorModule,
     FormsModule,
+    MatDividerModule,
+    MatListModule
 
 
   ],

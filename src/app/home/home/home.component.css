@@ -1,0 +1,53 @@
+.e_info_box{
+    border-radius: 4px;
+    padding: 40px 40px 40px 40px;
+    box-shadow: 0 1px 15px rgba(27,31,35,.15);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .e_info_box h2{
+      font-size: 1.8rem;
+      color: #24292e;
+  }
+  .e_info_box p{
+      margin-top: 20px;
+      font-size: 1.3rem;
+      color: #586069;
+  
+  }
+  .securityimg{
+      height: 7rem;
+  }
+  .e_info_box h3{
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #24292e;
+  }
+  .info_item{
+      text-align: center;
+  }
+  .info_item p{
+      color: #586069;
+      font-size: 0.9rem;
+  }
+  .info_item a{
+      padding: 13px 10px 13px 10px;
+      font-size: 1rem;
+      font-weight: 600;
+  }
+
+  .rulebook{
+      margin:auto;
+      height: 30%;
+        width: 30%;
+      
+  }
+  app-rulebook{
+      margin:auto;
+
+     
+  }
+
+  app-post-list{
+      margin:auto;
+  }

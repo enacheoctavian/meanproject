@@ -1,0 +1,17 @@
+.e_info_box{
+    border-radius: 4px;
+    padding: 40px 40px 40px 40px;
+    box-shadow: 0 1px 15px rgba(27,31,35,.15);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #24292e;
+}
+
+mat-list{
+    margin-left: 3rem;
+}
