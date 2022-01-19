@@ -11,7 +11,7 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb://localhost:27017/node-angular"
+    "mongodb+srv://tavi:tavi@cluster0.01p9y.mongodb.net/node-angular?retryWrites=true&w=majority"
   )
   .then(() => {
     console.log("Connected to database!");
